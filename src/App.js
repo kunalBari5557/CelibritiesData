@@ -133,8 +133,8 @@ function App() {
                           >
                             <textarea id="TextArea" align="left">{item.description}</textarea>
                           </tbody>
-                          <IconButton aria-label="delete" size="large">
-                            <DeleteForeverIcon sx={{ color: "red", marginLeft: "35rem" }} />
+                          <IconButton aria-label="delete" size="large" sx={{marginLeft:"35rem"}}>
+                            <DeleteForeverIcon sx={{ color: "red" }} />
                           </IconButton>
                           <IconButton aria-label="delete" size="large">
                             <CreateOutlinedIcon sx={{ color: "skyblue" }} />
