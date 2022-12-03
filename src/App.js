@@ -49,7 +49,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="App">
       <center>
         <Grid container spacing={2} sx={{ flexGrow: 1, justifyContent: 'center' }}>
           <Grid item xs={6}>
@@ -93,8 +93,6 @@ function App() {
                                   }}
                                 />
                               </td>
-                              {/* <td align="left">{item.gender}</td> */}
-                              {/* <td align="left">{item.country}</td> */}
                               <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
                                 <InputLabel id="demo-select-small">{item.gender}</InputLabel>
                                 <Select
@@ -133,7 +131,7 @@ function App() {
                           >
                             <textarea id="TextArea" align="left">{item.description}</textarea>
                           </tbody>
-                          <IconButton aria-label="delete" size="large" sx={{marginLeft:"35rem"}}>
+                          <IconButton aria-label="delete" size="large" sx={{ marginLeft: "35rem" }}>
                             <DeleteForeverIcon sx={{ color: "red" }} />
                           </IconButton>
                           <IconButton aria-label="delete" size="large">
